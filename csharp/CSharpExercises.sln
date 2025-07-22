@@ -1,11 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36203.30 d17.14
+VisualStudioVersion = 17.14.36203.30
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "medium", "medium", "{6093CF4D-4BB5-463A-9980-1EF0BA397051}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Knapsack", "medium\Knapsack\Knapsack.csproj", "{926442AC-7780-4290-8368-B2CA02A397A6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "easy", "easy", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaceAge", "easy\space-age\SpaceAge.csproj", "{29381EDA-7007-43B2-239E-EF78F79C13AA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +21,17 @@ Global
 		{926442AC-7780-4290-8368-B2CA02A397A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{926442AC-7780-4290-8368-B2CA02A397A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{926442AC-7780-4290-8368-B2CA02A397A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29381EDA-7007-43B2-239E-EF78F79C13AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29381EDA-7007-43B2-239E-EF78F79C13AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29381EDA-7007-43B2-239E-EF78F79C13AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29381EDA-7007-43B2-239E-EF78F79C13AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{926442AC-7780-4290-8368-B2CA02A397A6} = {6093CF4D-4BB5-463A-9980-1EF0BA397051}
+		{29381EDA-7007-43B2-239E-EF78F79C13AA} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A1026A9F-DEEC-4D5E-9835-926B32ED1CA5}

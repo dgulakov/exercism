@@ -5,7 +5,7 @@ public static class Knapsack
     public static int MaximumValue(int maximumWeight, (int weight, int value)[] items)
     {
         int res = 0;
-        int numberOfCombinations = Convert.ToInt32(Math.Pow(2, items.Length));
+        int numberOfCombinations = 0b1 << items.Length;
 
         for (int combinationSet = numberOfCombinations; combinationSet > 0; --combinationSet)
         {
@@ -14,7 +14,7 @@ public static class Knapsack
 
             for (int j = 0; j < items.Length; ++j)
             {
-                int itemInSet = Convert.ToInt32(Math.Pow(2, j));
+                int itemInSet = 0b1 << j;
 
                 if ((itemInSet & combinationSet) == itemInSet)
                 {

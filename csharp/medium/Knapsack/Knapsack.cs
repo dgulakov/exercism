@@ -4,38 +4,38 @@ public static class Knapsack
 {
     public static int MaximumValue(int maximumWeight, (int weight, int value)[] items)
     {
-        int res = 0;
-        int numberOfCombinations = 0b1 << items.Length;
-
-        for (int combinationSet = numberOfCombinations; combinationSet > 0; --combinationSet)
+        if (items.Length == 0)
         {
-            int weightInPack = 0;
-            int valueInPack = 0;
+            return 0;
+        }
 
-            for (int j = 0; j < items.Length; ++j)
+        (int weightOfAllItems, int valueOfAllItems) = items.Aggregate(((int weight, int value) total, (int weight, int value) el) => (total.weight + el.weight, total.value + el.value));
+        if (weightOfAllItems <= maximumWeight)
+        {
+            return valueOfAllItems;
+        }
+
+        int result = 0;
+
+        List<(int sackWeight, int sackValue)> currentNodes = [(0, 0)];
+        for (int i = 0; i < items.Length; ++i)
+        {
+            List<(int sackWeight, int sackValue)> newNodes = [];
+
+            foreach (var node in currentNodes)
             {
-                int itemInSet = 0b1 << j;
-
-                if ((itemInSet & combinationSet) == itemInSet)
+                newNodes.Add(node);
+                if (node.sackWeight + items[i].weight <= maximumWeight)
                 {
-                    weightInPack += items[j].weight;
-                    valueInPack += items[j].value;
-
-                    // reset value calculation for combination if we already over the weight limit
-                    if (weightInPack > maximumWeight)
-                    {
-                        valueInPack = 0;
-                        break;
-                    }
+                    newNodes.Add(node with { sackWeight = node.sackWeight + items[i].weight, sackValue = node.sackValue + items[i].value });
                 }
             }
 
-            if (valueInPack > res)
-            {
-                res = valueInPack;
-            }
+            currentNodes.Clear();
+            currentNodes.AddRange(newNodes);
+            result = Math.Max(result, newNodes.Max(variation => variation.sackValue));
         }
 
-        return res;
+        return result;
     }
 }

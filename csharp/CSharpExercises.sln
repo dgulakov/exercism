@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanNumerals", "medium\rom
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DifferenceOfSquares", "easy\difference-of-squares\DifferenceOfSquares.csproj", "{0F8B2ABC-4469-A19E-78BA-438A96B3FAD3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaddlePoints", "medium\saddle-points\SaddlePoints.csproj", "{8D5F78F2-624F-F2A3-104A-983601946B9A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +45,10 @@ Global
 		{0F8B2ABC-4469-A19E-78BA-438A96B3FAD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F8B2ABC-4469-A19E-78BA-438A96B3FAD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F8B2ABC-4469-A19E-78BA-438A96B3FAD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D5F78F2-624F-F2A3-104A-983601946B9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D5F78F2-624F-F2A3-104A-983601946B9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D5F78F2-624F-F2A3-104A-983601946B9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D5F78F2-624F-F2A3-104A-983601946B9A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,6 +59,7 @@ Global
 		{CB1B1B4D-FE61-A820-F8C0-34761CFD2386} = {6093CF4D-4BB5-463A-9980-1EF0BA397051}
 		{6B2F81EE-CF0B-818C-06FE-469F286343AC} = {6093CF4D-4BB5-463A-9980-1EF0BA397051}
 		{0F8B2ABC-4469-A19E-78BA-438A96B3FAD3} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{8D5F78F2-624F-F2A3-104A-983601946B9A} = {6093CF4D-4BB5-463A-9980-1EF0BA397051}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A1026A9F-DEEC-4D5E-9835-926B32ED1CA5}

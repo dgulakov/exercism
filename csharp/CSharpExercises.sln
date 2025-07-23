@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leap", "easy\leap\Leap.cspr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gigasecond", "easy\gigasecond\Gigasecond.csproj", "{5C1E4362-A0B7-5365-D139-AB52BF2CEEA8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anagram", "medium\anagram\Anagram.csproj", "{B8EF9F65-D7BC-F26F-D80D-9CCCEE1CC964}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -97,6 +99,10 @@ Global
 		{5C1E4362-A0B7-5365-D139-AB52BF2CEEA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C1E4362-A0B7-5365-D139-AB52BF2CEEA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C1E4362-A0B7-5365-D139-AB52BF2CEEA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8EF9F65-D7BC-F26F-D80D-9CCCEE1CC964}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8EF9F65-D7BC-F26F-D80D-9CCCEE1CC964}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8EF9F65-D7BC-F26F-D80D-9CCCEE1CC964}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8EF9F65-D7BC-F26F-D80D-9CCCEE1CC964}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -116,6 +122,7 @@ Global
 		{566CACFF-BA49-D44A-DC7B-0EDC8E448B49} = {6093CF4D-4BB5-463A-9980-1EF0BA397051}
 		{99CA2EA7-EE3E-EB10-73F6-6C28DF148101} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{5C1E4362-A0B7-5365-D139-AB52BF2CEEA8} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{B8EF9F65-D7BC-F26F-D80D-9CCCEE1CC964} = {6093CF4D-4BB5-463A-9980-1EF0BA397051}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A1026A9F-DEEC-4D5E-9835-926B32ED1CA5}

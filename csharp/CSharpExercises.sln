@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Triangle", "easy\triangle\T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Darts", "easy\darts\Darts.csproj", "{B7447816-64A5-3086-2F4A-9C8A3C17ECDB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RailFenceCipher", "medium\rail-fence-cipher\RailFenceCipher.csproj", "{2DAF16D4-58EC-5520-A22B-E6108F85876B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -73,6 +75,10 @@ Global
 		{B7447816-64A5-3086-2F4A-9C8A3C17ECDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7447816-64A5-3086-2F4A-9C8A3C17ECDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7447816-64A5-3086-2F4A-9C8A3C17ECDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DAF16D4-58EC-5520-A22B-E6108F85876B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DAF16D4-58EC-5520-A22B-E6108F85876B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DAF16D4-58EC-5520-A22B-E6108F85876B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DAF16D4-58EC-5520-A22B-E6108F85876B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -88,6 +94,7 @@ Global
 		{09163A2B-8315-87C9-42B5-B06AF88E42BF} = {6093CF4D-4BB5-463A-9980-1EF0BA397051}
 		{443C76FA-CC0D-D65B-7921-12E556D0E532} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{B7447816-64A5-3086-2F4A-9C8A3C17ECDB} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{2DAF16D4-58EC-5520-A22B-E6108F85876B} = {6093CF4D-4BB5-463A-9980-1EF0BA397051}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A1026A9F-DEEC-4D5E-9835-926B32ED1CA5}

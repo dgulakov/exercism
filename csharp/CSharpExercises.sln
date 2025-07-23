@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaddlePoints", "medium\sadd
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bob", "medium\bob\Bob.csproj", "{B410357F-2726-DB8F-CBEE-3EE6DFF3FF03}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PythagoreanTriplet", "medium\pythagorean-triplet\PythagoreanTriplet.csproj", "{09163A2B-8315-87C9-42B5-B06AF88E42BF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +57,10 @@ Global
 		{B410357F-2726-DB8F-CBEE-3EE6DFF3FF03}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B410357F-2726-DB8F-CBEE-3EE6DFF3FF03}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B410357F-2726-DB8F-CBEE-3EE6DFF3FF03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09163A2B-8315-87C9-42B5-B06AF88E42BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09163A2B-8315-87C9-42B5-B06AF88E42BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09163A2B-8315-87C9-42B5-B06AF88E42BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09163A2B-8315-87C9-42B5-B06AF88E42BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -67,6 +73,7 @@ Global
 		{0F8B2ABC-4469-A19E-78BA-438A96B3FAD3} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{8D5F78F2-624F-F2A3-104A-983601946B9A} = {6093CF4D-4BB5-463A-9980-1EF0BA397051}
 		{B410357F-2726-DB8F-CBEE-3EE6DFF3FF03} = {6093CF4D-4BB5-463A-9980-1EF0BA397051}
+		{09163A2B-8315-87C9-42B5-B06AF88E42BF} = {6093CF4D-4BB5-463A-9980-1EF0BA397051}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A1026A9F-DEEC-4D5E-9835-926B32ED1CA5}

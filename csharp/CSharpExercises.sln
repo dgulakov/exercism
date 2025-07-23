@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RailFenceCipher", "medium\r
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiffieHellman", "medium\diffie-hellman\DiffieHellman.csproj", "{566CACFF-BA49-D44A-DC7B-0EDC8E448B49}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leap", "easy\leap\Leap.csproj", "{99CA2EA7-EE3E-EB10-73F6-6C28DF148101}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -85,6 +87,10 @@ Global
 		{566CACFF-BA49-D44A-DC7B-0EDC8E448B49}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{566CACFF-BA49-D44A-DC7B-0EDC8E448B49}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{566CACFF-BA49-D44A-DC7B-0EDC8E448B49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99CA2EA7-EE3E-EB10-73F6-6C28DF148101}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99CA2EA7-EE3E-EB10-73F6-6C28DF148101}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99CA2EA7-EE3E-EB10-73F6-6C28DF148101}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99CA2EA7-EE3E-EB10-73F6-6C28DF148101}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -102,6 +108,7 @@ Global
 		{B7447816-64A5-3086-2F4A-9C8A3C17ECDB} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{2DAF16D4-58EC-5520-A22B-E6108F85876B} = {6093CF4D-4BB5-463A-9980-1EF0BA397051}
 		{566CACFF-BA49-D44A-DC7B-0EDC8E448B49} = {6093CF4D-4BB5-463A-9980-1EF0BA397051}
+		{99CA2EA7-EE3E-EB10-73F6-6C28DF148101} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A1026A9F-DEEC-4D5E-9835-926B32ED1CA5}

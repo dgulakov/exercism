@@ -43,6 +43,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RunLengthEncoding", "medium
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumOfMultiples", "easy\sum-of-multiples\SumOfMultiples.csproj", "{8636F751-2C4F-9F23-F762-D38272E98CD0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpiralMatrix", "medium\spiral-matrix\SpiralMatrix.csproj", "{9CDD9F13-86A0-3E17-064D-9A3948EE45C1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -121,6 +123,10 @@ Global
 		{8636F751-2C4F-9F23-F762-D38272E98CD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8636F751-2C4F-9F23-F762-D38272E98CD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8636F751-2C4F-9F23-F762-D38272E98CD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CDD9F13-86A0-3E17-064D-9A3948EE45C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CDD9F13-86A0-3E17-064D-9A3948EE45C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CDD9F13-86A0-3E17-064D-9A3948EE45C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CDD9F13-86A0-3E17-064D-9A3948EE45C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -144,6 +150,7 @@ Global
 		{92011E08-14CF-00DF-B3CB-10F308141B90} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{FC5F93C8-87A9-F645-6313-F74B3BBDE37F} = {6093CF4D-4BB5-463A-9980-1EF0BA397051}
 		{8636F751-2C4F-9F23-F762-D38272E98CD0} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{9CDD9F13-86A0-3E17-064D-9A3948EE45C1} = {6093CF4D-4BB5-463A-9980-1EF0BA397051}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A1026A9F-DEEC-4D5E-9835-926B32ED1CA5}

@@ -6,33 +6,17 @@ public static class RunLengthEncoding
     {
         StringBuilder res = new();
 
-        int counter = 0;
-        char? currentChar = null;
-
-        foreach (char c in input)
+        for (int i = 0; i < input.Length; ++i)
         {
-            if (currentChar == c)
+            char currentChar = input[i];
+            int counter = 1;
+
+            while (i < input.Length - 1 && currentChar == input[i + 1])
             {
                 ++counter;
+                ++i;
             }
-            else
-            {
-                if (currentChar.HasValue)
-                {
-                    if (counter > 1)
-                    {
-                        res.Append(counter);
-                    }
-                    res.Append(currentChar);
-                }
 
-                currentChar = c;
-                counter = 1;
-            }
-        }
-
-        if (currentChar.HasValue)
-        {
             if (counter > 1)
             {
                 res.Append(counter);
